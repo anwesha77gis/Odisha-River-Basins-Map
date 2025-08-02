@@ -1,0 +1,72 @@
+Odisha River Basins Map
+
+This project visualizes the major river basins of Odisha using thematic mapping techniques in GIS.
+
+Project Description
+
+The map illustrates various river basins across the state of Odisha, each represented by distinct colors and labeled with basin names. This thematic representation helps in understanding the hydrological divisions of the region.
+
+ Features
+
+Digitized river basin boundaries
+
+Clear legend indicating river basin names
+
+Drainage network overlay
+
+Scale bar and north arrow for reference
+
+Thematic coloring for easy distinction
+
+
+Tools & Techniques Used
+
+QGIS – For map digitization and cartographic styling
+
+Georeferencing – To align basemap with coordinates
+
+Polygon Digitization – For creating basin boundaries
+
+Symbology – Color-coded basins for easy visualization
+
+Layout Manager – For map elements like legend, north arrow, and scale
+
+
+ File Structure
+
+Odisha_River_Basins/
+├── README.md
+├── Odisha_River_Basins.qgz        # QGIS project file
+├── basemap.tif                    # Georeferenced raster (if any)
+├── basin_boundaries.shp          # Shapefile for basin polygons
+├── drainage_lines.shp            # Shapefile for river lines
+└── output_map.png                # Exported map image
+
+ River Basins Included
+
+Baitarani
+
+Brahmani
+
+Rushikulya
+
+Vansadhara
+
+Mahanadi
+
+Nagavali
+
+Subarnarekha
+(and more as shown in the legend)
+
+Purpose
+
+This map can support:
+
+Water resource planning
+
+Environmental studies
+
+Educational projects
+
+GIS training and cartography practice
